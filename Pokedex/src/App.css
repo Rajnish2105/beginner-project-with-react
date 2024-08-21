@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke;
+}
+
+.App {
+  width: 95%;
+  margin: auto; 
+}
+
+.App nav h1 {
+  font-weight: 700;
+  font-size: 60px;
+  margin: 0;
+  margin-top: 2rem;
+  width: 20%;
+  background: linear-gradient(to right, #00BFFF, #00BFFF, #c43030);
+  text-shadow: 2px 2px 5px #888888a0;
+  background-clip: text;
+  color: transparent;
+}
+
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.title h1 {
+  display: inline-block;
+  margin: 0;
+}
+
+.logo {
+  height: 2em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+  animation: logo-spin infinite 20s linear;
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

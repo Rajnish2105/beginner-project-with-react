@@ -1,0 +1,23 @@
+html {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: black;
+}
+
+.bgImg {
+  background-image: url('https://img.freepik.com/free-vector/gradient-mountain-landscape_23-2149162009.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  z-index: -1;
+  position: absolute;
+  inset: 0 0 0 0;
+  height: 300px;
+}

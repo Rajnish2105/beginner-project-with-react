@@ -1,0 +1,55 @@
+.SearchBar {
+    border-radius: 5px;
+    width: 100%;
+    background-color: white;
+    margin-top: 2rem;
+    box-shadow: 0 0 1em -0.4em rgba(0, 0, 0, 0.704);
+    padding: 5px 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.SearchBar input,
+button {
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    outline: 0;
+    font-size: large;
+    background: none;
+    color: rgb(36, 36, 187);
+    font-weight: 700;
+}
+
+.SearchBar input {
+    width: inherit;
+}
+
+.SearchBar button {
+    width: 10%;
+    text-align: center;
+    background-color: orange;
+}
+
+.Nwf {
+    width: 100%;
+    padding: 15px 0 0 10px;
+    border-radius: 5px;
+    color: red;
+    overflow: hidden;
+    font-weight: 800;
+    font-size: 1.2rem;
+    animation: size 1s ease 1 forwards;
+}
+
+@keyframes size {
+    0% {
+        max-height: 0;
+    }
+
+    100% {
+        max-height: 50px;
+    }
+}

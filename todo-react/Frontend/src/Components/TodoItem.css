@@ -1,0 +1,35 @@
+.TodoItem {
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    margin-bottom: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TodoItem label {
+    width: 93%;
+}
+
+.TodoItem button {
+    width: 5%;
+    background-color: transparent;
+    border: none;
+    border-left: 1px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TodoItem button img {
+    width: 20px;
+    height: 20px;
+}
+
+.TodoItem input {
+    width: 15px; 
+    height: 15px; 
+}

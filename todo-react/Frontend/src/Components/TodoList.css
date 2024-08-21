@@ -1,0 +1,20 @@
+.Box {
+    width: 45%;
+    margin: 0 auto 2rem auto;
+    box-shadow: 0 0 1rem -0.5rem rgba(55, 55, 55, 0.753);
+    border-radius: 15px;
+    background-color: hsl(232.5deg 25% 18.82%);
+    color: inherit;
+    font-weight: 600;
+}
+
+.TodoList {
+    padding: 1rem 2rem;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.Box p {
+    text-align: end;
+    opacity: 0.5;
+}

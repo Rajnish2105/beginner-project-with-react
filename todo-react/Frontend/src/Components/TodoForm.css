@@ -1,0 +1,27 @@
+.TodoForm {
+    padding: 1rem 2rem;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    box-shadow: 0 0 1rem -0.5rem rgba(0, 0, 0, 0.753);
+    margin-bottom: 1rem
+}
+
+.TodoForm form {
+    width: 100%;
+    background: transparent;
+    border-radius: 2rem;
+    outline: 1px solid black;
+    margin: 1rem 0;
+}
+
+.TodoForm form input {
+    width: 95%;
+    border: none;
+    color: inherit;
+    background: transparent;
+    outline: 0;
+    border-radius: 2rem;
+    font-size: 1rem;
+    padding: 10px 15px;
+    overflow: hidden;
+}

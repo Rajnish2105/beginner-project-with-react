@@ -1,0 +1,37 @@
+.Pokemon {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    row-gap: 3rem;
+    column-gap: 3rem;
+    margin: 50px 0;
+}
+
+.Pokemon div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 0 2rem 1rem rgba(0, 0, 0, 0.299);
+    padding: 10px;
+}
+
+.Pokemon div img {
+    width: 200px;
+    position: relative;
+    bottom: 60px;
+    margin: auto;
+}
+
+.Pokemon div h1 {
+    width: 100%;
+    margin: 0;
+}
+
+.Pokemon div span {
+    background-color: gray;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 10px;
+}
